@@ -1,0 +1,98 @@
+html {
+    font-family: 'Monotype Corsiva', serif;
+    font-size: 1em;
+  }
+body {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    background-image: none;
+    opacity: 0.9;
+}
+
+.products {
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Monotype Corsiva', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.product-menu {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #61120E;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #61120E;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.productname {
+    font-weight: bold;
+}
+
+.ingredients {
+    font-style: italic;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.buyBtn {
+    text-align: center;
+    width: 25%;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid #61120E;
+    border-radius: 5px;
+    background-color: #ECA442;
+    color: #61120E;
+    font-weight: bold;
+}
+
+.buyBtn:hover {
+    background-color: #61120E;
+    color: white;
+}
+
+.container-menu {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.pages {
+    display: flex;
+    width: 400%;
+    box-sizing: border-box;
+}
+.salads,
+.pizzas,
+.pastas,
+.desserts {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 1s;
+}

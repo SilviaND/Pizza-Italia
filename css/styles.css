@@ -1,0 +1,379 @@
+.container {
+  font-family: 'Monotype Corsiva', serif;
+  font-size: 22px;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  background-image: url("../img/Light_Wood_Texture_Background.jpg");
+}
+.body {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+/* sticky social media links */
+
+.icon-bar {
+position: fixed;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 15px;
+transition: all 0.3s ease;
+background-color: #ECA442;
+color: #61120E;
+font-size: 20px;
+}
+
+.icon-bar a:hover {
+background-color: #61120E;
+color: white;
+}
+
+.social {
+border-bottom: 1px solid white;
+opacity: 1;
+}
+.social:last-child {
+  border-bottom: none;
+}
+
+.social:first-child {
+  border-top-right-radius: 10px;
+}
+
+.social:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* ------------------- */
+#logo {
+  width: 100px;
+}
+
+.menu a,
+#make-a-call {
+    text-decoration: none;
+    color: #61120E;
+}
+
+#make-a-call {
+    color: white;
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+#bonus-info {
+  background-color: #ECA442;
+  color: #61120E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  height: fit-content;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#main-nav {
+  background-color: #ECA442;
+}
+
+#main-nav a {
+  color: #61120E;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#nav a:hover,
+#nav-login-reg a:hover {
+    color: white;
+}
+
+#nav a:active,
+#nav-login-reg a:active {
+    color: white;
+}
+.white-background {
+  text-align: center;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  color:#61120E;
+  opacity: 0.9;
+  width: 70%;
+  font-size: 24px;
+  padding: 20px 50px;
+  font-family: 'Monotype Corsiva';
+}
+
+/* ----------------  Automatic Slideshow  ------------ */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0px 50px;
+  background-color: white;
+  color:#61120E;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Monotype Corsiva', serif;
+}
+
+/* Caption text */
+.text {
+  color:#61120E;
+  font-size: 24px;
+  font-weight: bold;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+ /* ------------------------------------------------ */
+
+ #vegetables {
+  position: absolute;
+  z-index: -1;
+  top: 1%;
+ }
+
+ #footer {
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  color:#61120E;
+  opacity: 0.9;
+  width: 84.7%;
+  font-size: 1.5em;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* ------------------ dishes-menu ------------ */
+iframe {
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.menu-dishes-main-img {
+  border:1px solid #61120E;
+  border-radius: 7px;
+  padding: 10px;
+}
+.menu-dishes-main-img a {
+  text-decoration: none;
+  color: #61120E;
+  cursor: pointer;
+}
+.menu-dishes-main-img a:hover {
+  color: #61120E;
+  opacity: 0.7;
+}
+
+#staff img {
+  padding-bottom: 50px;
+}
+
+.working-hours li {
+  list-style-type: none;
+  text-align: left;
+}
+#call a {
+  text-decoration: none;
+  color: #61120E;
+  animation: blinker 1.5s linear infinite;
+}
+#working time h3 {
+  text-decoration-line: underline;
+}
+
+#login-form,
+#register-form {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  background-color: #ECA442;
+  color:#61120E;
+  border: 10px solid whitesmoke;
+  border-radius: 7px;
+  font-size: 1em;
+}
+#register-form {
+  width: 60%;
+}
+#login-form h1,
+#register-form h1 {
+  padding-top: 40px;
+}
+#login-form input,
+#register-form input{
+  width: 85%;
+  margin: 0px 20px; 
+  font-size: 1em;
+}
+#register-form input {
+  width: 90%;
+  margin: 0px 30px; 
+}
+#btn-login,
+#btn-register,
+#myBtn {
+  background-color: #61120E;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 1em;
+  margin-top: 20px;
+}
+#btn-login:hover,
+#btn-register:hover,
+#myBtn {
+  background-color: #ECA442;
+  color:#61120E;
+}
+#myBtn:hover {
+  background-color: #61120E;
+  color: white;
+}
+#login-form a,
+#register-form a {
+  text-decoration: none;
+  color:#61120E;
+}
+#login-form a:hover,
+#register-form a:hover {
+  color: white;
+  cursor: pointer;
+}
+#myContactForm input,
+#message {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  color:#61120E;
+  border: 1px solid #61120E;
+  border-radius: 7px;
+  font-size: 1em;
+  margin: 5px;
+}
+
+/* ------------ Shopping cart ------------ */
+
+#shopping-cart {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    background-color: white;
+    color:#61120E;
+    border: 1px solid #ECA442;
+    border-radius: 7px;
+    max-width: 30%;
+    height: 70%;
+    opacity: 0.9;
+}
+/* #display-products-in-cart {
+    padding: 10px;
+    opacity: 1;
+    z-index: 10;
+    width: 100%;
+}
+#cart-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px double #61120E;
+}
+#btn-send-order, #close-cart {
+  background-color:#61120E;
+  color: white;
+  border: 1px solid #61120E;
+  width: 30%;
+  height: 40px;
+  opacity: 1;
+  border-radius: 7px;
+  font-size: 0.8em;
+  margin: 5px;
+  text-align: center;
+  padding-right: 5px;
+  position: relative;
+  top: 300px;
+}
+
+#btn-send-order:hover, #close-cart:hover {
+  cursor: pointer;
+  background-color:#ECA442;
+  color: #61120E;
+  border: 1px solid #61120E;
+} */
+
+#myCartBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ECA442;
+  color: #61120E;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myCartBtn:hover {
+  opacity: 0.9;
+}
+
+
